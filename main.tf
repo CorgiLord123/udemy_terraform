@@ -2,10 +2,10 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "jakeasarus"
+    organization = "sli-hashicorp-learn"
 
     workspaces {
-      name = "udemy_test"
+      name = "udemy_terraform"
     }
   }
 }
