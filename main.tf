@@ -16,6 +16,4 @@ provider "aws" {
     secret_key = var.secret_key
 }
 #S3 Bucket Configuration
-resource "aws_s3_bucket" "test" {
-    bucket_prefix = "test-"
-}
+#Remove s3 bucket to test terraform destroy from cloud
